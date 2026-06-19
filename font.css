@@ -1,0 +1,10 @@
+:root {
+  --github-font-override: "BigBlueTermPlus Nerd Font", monospace;
+}
+
+* {
+  font-family: var(--github-font-override) !important;
+}
+.blob-code-inner, .blob-num, .cm-s-github-light .CodeMirror-lines, .CodeMirror pre > span, .CodeMirror, .CodeMirror-dialog input, .CodeMirror-hints, .CodeMirror-linenumber, .CodeMirror-lines, .commit .sha, .commit .sha-block, .commit-desc pre, .commit-ref, .commit-tease-sha, .export-phrase pre, .file-info, .FormControl-input.FormControl-monospace, .FormControl-select.FormControl-monospace, .FormControl-textarea.FormControl-monospace, .input-monospace, .markdown-body .footnotes .data-footnote-backref g-emoji, .pr-1 > code > a, .react-blob-print-hide, .react-code-text, .react-code-view-edit .cm-s-github-light .CodeMirror-lines, .text-mono *, .text-mono, .two-factor-recovery-codes, [aria-labelledby*="codemirror"] *, [class*="blob-code"] *, code > a[class="Link--secondary"], section[aria-labelledby*="file-name-id"] > div > div *, span.commit-ref > a > *, span.commit-ref > a {
+  font-family: var(--github-font-override) !important;
+}
